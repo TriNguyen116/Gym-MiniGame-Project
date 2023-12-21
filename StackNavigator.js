@@ -6,6 +6,9 @@ import HomeScreen from "./screens/HomeScreen";
 import WorkoutScreen from "./screens/WorkoutScreen";
 import FitScreen from "./screens/FitScreen";
 import RestScreen from "./screens/RestScreen";
+import MiniGameScreen from "./screens/MiniGameScreen";
+import QuizScreen from "./screens/QuizScreen";
+import ResultsScreen from "./screens/ResultsScreen";
 
 const StackNavigator = () => {
   const Stack = createNativeStackNavigator();
@@ -17,6 +20,10 @@ const StackNavigator = () => {
         <Stack.Screen name="Workout" component={WorkoutScreen} options={{headerShown:false}}/>
         <Stack.Screen name="Fit" component={FitScreen} options={{headerShown:false}}/>
         <Stack.Screen name="Rest" component={RestScreen} options={{headerShown:false}}/>
+        <Stack.Screen name="MiniGame" component={MiniGameScreen} options={{headerShown:false}}/>
+        <Stack.Screen name="Quiz" component={QuizScreen} options={{headerShown:false}}/>
+        <Stack.Screen name="Results" component={ResultsScreen} options={{headerShown:false}}/>
+
       </Stack.Navigator>
     </NavigationContainer>
   );

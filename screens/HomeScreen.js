@@ -1,17 +1,29 @@
-import { StyleSheet, Text, View, SafeAreaView, Image,ScrollView } from "react-native";
+import { StyleSheet, Text, View, SafeAreaView, Image,ScrollView,Pressable } from "react-native";
 import React ,{useContext} from "react";
 import FitnessCards from "../components/FitnessCards";
 import { FitnessItems } from "../Context";
+import { useNavigation } from "@react-navigation/native";
+
 
 const HomeScreen = () => {
+  const navigation = useNavigation();
+
   const {
-   
+    completed,
+
     minutes,
   
     calories,
 
     workout,
+    
+    setCompleted,
+    setMinutes,
+    setCalories,
+    setWorkout,
+
   } = useContext(FitnessItems);
+
   return (
     <ScrollView style={{marginTop:40}}>
       <View
@@ -22,10 +34,61 @@ const HomeScreen = () => {
           width: "100%",
         }}
       >
+        <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center',gap:70 }}>
+        <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap:5 }}>
         <Text style={{ color: "white", fontWeight: "bold", fontSize: 18 }}>
           HOME WORKOUT
         </Text>
-
+        <Pressable
+        onPress={() => {
+          // navigation.navigate("Rest");
+          setCompleted([]);
+          setWorkout(0);
+          setMinutes(0);
+          setCalories( 0);
+        }}
+        style={{
+          backgroundColor: "green",
+          padding: 5,
+          width:60,
+          borderRadius:20,
+          
+        }}
+      >
+        <Text
+          style={{
+            textAlign: "center",
+            color: "white",
+            fontSize: 15,
+            fontWeight: "600",
+          }}
+        >
+          RESET
+        </Text>
+      </Pressable>
+      </View>
+      <Pressable
+        onPress={() => navigation.navigate("MiniGame")}
+        style={{
+          backgroundColor: "orange",
+          padding: 5,
+          width:100,
+          borderRadius:20,
+        }}
+      >
+        <Text
+          style={{
+            textAlign: "center",
+            color: "white",
+            fontSize: 15,
+            fontWeight: "600",
+          }}
+        >
+          Mini Game
+        </Text>
+      </Pressable>
+      </View>
+      
         <View
           style={{
             flexDirection: "row",
