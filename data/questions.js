@@ -1,160 +1,160 @@
 
 export default [
-  {
-      question: "Việt Nam thuộc lục địa nào?",
+    {
+        question: "Gym là viết tắt của từ gì?",
+        options:[
+            {
+                id:"0",
+                options:"A",
+                answer:"Gymnastics",
+            },
+            {
+                id:"1",
+                options:"B",
+                answer:"Gymnast",
+            },
+            {
+                id:"2",
+                options:"C",
+                answer:"Gymnasium",
+            },
+            {
+                id:"0",
+                options:"D",
+                answer:"Gymnasia",
+            },
+        ],
+        correctAnswerIndex: 2
+    },
+    {
+        question: "Bài tập cardio là gì? ",
+        options:[
+            {
+                id:"0",
+                options:"A",
+                answer:"Bài tập tăng cường sức mạnh tim và phổi",
+            },
+            {
+                id:"1",
+                options:"B",
+                answer:"Bài tập tăng cường cơ bắp",
+            },
+            {
+                id:"2",
+                options:"C",
+                answer:"Bài tập tăng cường sức mạnh",
+            },
+            {
+                id:"0",
+                options:"D",
+                answer:"Bài tập nâng cao sự linh hoạt",
+            },
+        ],
+        correctAnswerIndex: 0,
+  
+    },
+    {
+        question: "Cơ bắp nào được gọi là cơ bắp cổ vai?",
+        options:[
+            {
+                id:"0",
+                options:"A",
+                answer:"Biceps",
+            },
+            {
+                id:"1",
+                options:"B",
+                answer:"Deltoid",
+            },
+            {
+                id:"2",
+                options:"C",
+                answer:"Triceps",
+            },
+            {
+                id:"0",
+                options:"D",
+                answer:"Latissimus dorsi",
+            },
+        ],
+        correctAnswerIndex: 1
+    },
+    {
+        question: "Làm thế nào để tăng cường cơ bắp chân?",
+        options:[
+            {
+                id:"0",
+                options:"A",
+                answer:"Bench Press",
+            },
+            {
+                id:"1",
+                options:"B",
+                answer:"Bicep Curls",
+            },
+            {
+                id:"2",
+                options:"C",
+                answer:"Squats",
+            },
+            {
+                id:"0",
+                options:"D",
+                answer:"Tricep Dips",
+            },
+        ],
+        correctAnswerIndex: 2
+    },
+    {
+        question: " Đối với người tập gym, protein có vai trò quan trọng gì?",
+        options:[
+            {
+                id:"0",
+                options:"A",
+                answer:"Tăng cường sự linh hoạt",
+            },
+            {
+                id:"1",
+                options:"B",
+                answer:"Tăng cường sức mạnh tim và phổi",
+            },
+            {
+                id:"2",
+                options:"C",
+                answer:"Xây dựng và sửa chữa cơ bắp",
+            },
+            {
+                id:"0",
+                options:"D",
+                answer:"Giảm cân",
+            },
+        ],
+        correctAnswerIndex: 2
+    },
+    {
+      question: "Loại thức ăn nào nên được tiêu thụ trước buổi tập?",
       options:[
           {
               id:"0",
               options:"A",
-              answer:"Nam Mỹ",
+              answer:"Thức ăn giàu carbohydrate",
           },
           {
               id:"1",
               options:"B",
-              answer:"Châu Âu",
+              answer:"Thức ăn giàu protein",
           },
           {
               id:"2",
               options:"C",
-              answer:"Châu Á",
+              answer:"Thức ăn giàu chất béo",
           },
           {
               id:"0",
               options:"D",
-              answer:"Ấn Độ",
+              answer:"Thức ăn giàu đường",
           },
       ],
-      correctAnswerIndex: 2
-  },
-  {
-      question: "Châu lục nào có mật độ dân số cao nhất? ",
-      options:[
-          {
-              id:"0",
-              options:"A",
-              answer:"Châu Á",
-          },
-          {
-              id:"1",
-              options:"B",
-              answer:"Nam Phi",
-          },
-          {
-              id:"2",
-              options:"C",
-              answer:"Châu Úc",
-          },
-          {
-              id:"0",
-              options:"D",
-              answer:"Nam Cực",
-          },
-      ],
-      correctAnswerIndex: 0,
-
-  },
-  {
-      question: "5 x 5 = ?",
-      options:[
-          {
-              id:"0",
-              options:"A",
-              answer:"20",
-          },
-          {
-              id:"1",
-              options:"B",
-              answer:"25",
-          },
-          {
-              id:"2",
-              options:"C",
-              answer:"10",
-          },
-          {
-              id:"0",
-              options:"D",
-              answer:"30",
-          },
-      ],
-      correctAnswerIndex: 1
-  },
-  {
-      question: "Căn bậc hai của 169 là bao nhiêu",
-      options:[
-          {
-              id:"0",
-              options:"A",
-              answer:"20",
-          },
-          {
-              id:"1",
-              options:"B",
-              answer:"23",
-          },
-          {
-              id:"2",
-              options:"C",
-              answer:"13",
-          },
-          {
-              id:"0",
-              options:"D",
-              answer:"23",
-          },
-      ],
-      correctAnswerIndex: 2
-  },
-  {
-      question: "Đại dương nhỏ nhất là gì?",
-      options:[
-          {
-              id:"0",
-              options:"A",
-              answer:"Đại Tây Dương",
-          },
-          {
-              id:"1",
-              options:"B",
-              answer:"Thái Bình Dương",
-          },
-          {
-              id:"2",
-              options:"C",
-              answer:"Bắc Băng Dương",
-          },
-          {
-              id:"0",
-              options:"D",
-              answer:"Ấn Độ Dương",
-          },
-      ],
-      correctAnswerIndex: 2
-  },
-  {
-    question: "Dòng họ nào nhiều nhất tại Việt Nam?",
-    options:[
-        {
-            id:"0",
-            options:"A",
-            answer:"Nguyễn",
-        },
-        {
-            id:"1",
-            options:"B",
-            answer:"Trần",
-        },
-        {
-            id:"2",
-            options:"C",
-            answer:"Lý",
-        },
-        {
-            id:"0",
-            options:"D",
-            answer:"Đào",
-        },
-    ],
-    correctAnswerIndex: 0
-}
-]
+      correctAnswerIndex: 0
+  }
+  ]

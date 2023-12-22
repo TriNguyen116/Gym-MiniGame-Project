@@ -13,12 +13,12 @@ export default [
         name: "JUMPING JACKS",
         sets:12,
       },
-      {
-          id:"11",
-          image:"https://177d01fbswx3jjl1t20gdr8j-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/Incline-Push-Up.gif",
-          name:"INCLINE PUSH-UPS",
-          sets:10,
-      },
+      // {
+      //     id:"11",
+      //     image:"https://177d01fbswx3jjl1t20gdr8j-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/Incline-Push-Up.gif",
+      //     name:"INCLINE PUSH-UPS",
+      //     sets:10,
+      // },
       {
           id:"12",
           image:"https://media.self.com/photos/583c641ca8746f6e65a60c7e/master/w_1600%2Cc_limit/DIAMOND_PUSHUP_MOTIFIED.gif",
@@ -97,18 +97,18 @@ export default [
         name:"ARM RAISES",
         sets:8,
       },
-      {
-        id:"71",
-        image:"https://thumbs.gfycat.com/CompleteZigzagFossa-max-1mb.gif",
-        name:"TRICEP DIPS",
-        sets:10,
-      },
-      {
-        id:"72",
-        image:"https://thumbs.gfycat.com/MisguidedAridAlaskanmalamute-max-1mb.gif",
-        name:"DIAMOND_PUSHUP",
-        sets:10,
-      },
+      // {
+      //   id:"71",
+      //   image:"https://thumbs.gfycat.com/CompleteZigzagFossa-max-1mb.gif",
+      //   name:"TRICEP DIPS",
+      //   sets:10,
+      // },
+      // {
+      //   id:"72",
+      //   image:"https://thumbs.gfycat.com/MisguidedAridAlaskanmalamute-max-1mb.gif",
+      //   name:"DIAMOND_PUSHUP",
+      //   sets:10,
+      // },
       {
         id:"73",
         image:"https://c.tenor.com/gI-8qCUEko8AAAAC/pushup.gif",
@@ -149,24 +149,24 @@ export default [
         name:"DECLINE PUSH-UPS",
         sets:9,
       },
-      {
-        id:"21",
-        image:"https://image.2bstronger.com/article/fitness/the-14-toughest-do-anywhere-workout-moves-56348/1006.gif",
-        name:"HINDU PUSH-UPS",
-        sets:10,
-      },
-      {
-        id:"22",
-        image:"https://thumbs.gfycat.com/TheseRigidBorer-size_restricted.gif",
-        name:"SHOULDER STRETCH",
-        sets:5,
-      },
-      {
-        id:"23",
-        image:"https://thumbs.gfycat.com/AlertAfraidAldabratortoise-max-1mb.gif",
-        name:"COBRA STRETCH",
-        sets:4,
-      },
+      // {
+      //   id:"21",
+      //   image:"https://image.2bstronger.com/article/fitness/the-14-toughest-do-anywhere-workout-moves-56348/1006.gif",
+      //   name:"HINDU PUSH-UPS",
+      //   sets:10,
+      // },
+      // {
+      //   id:"22",
+      //   image:"https://thumbs.gfycat.com/TheseRigidBorer-size_restricted.gif",
+      //   name:"SHOULDER STRETCH",
+      //   sets:5,
+      // },
+      // {
+      //   id:"23",
+      //   image:"https://thumbs.gfycat.com/AlertAfraidAldabratortoise-max-1mb.gif",
+      //   name:"COBRA STRETCH",
+      //   sets:4,
+      // },
       {
         id:"25",
         image:"https://media4.popsugar-assets.com/files/thumbor/BaWEAcCjtJEjiwf3PqJHnZ_S23A/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/08/10/766/n/1922729/1eae2dcf3d395379_PushUpTwist.gif",

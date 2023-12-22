@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "gym-new",
-    "slug": "gym-new",
+    "name": "FitnessApp-TriPhuc",
+    "slug": "FitnessApp-TriPhuc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.trint116.FitnessAppTriPhuc"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3439e53f-3ef4-46b8-b314-2ce790521e9b"
+      }
     }
   }
 }
